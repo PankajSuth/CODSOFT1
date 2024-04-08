@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #262626;
+}
+#header a img{
+    width: 120px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    color: rgb(136, 125, 125);
+}
+.header_text{
+    margin-top: 15%;
+    padding-left: 35px;
+    font-size: 50px;
+}
+#header_text h1{
+    font-size: 50px;
+}
+.header_text button a{
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.header_text button a:hover{
+    background-color: #fff;
+}
+
+.header_text p{
+    font-size: 25px;
+    width: 45%;
+}
+.header_text h1 span{
+    color: red;
+}
+#header_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#header_main .header_img img{
+    width: 550px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 55%;
+    top: 23%;
+}
+#skill{
+    width: 100%;;
+    height: 100%;
+}
+.skill_section{
+    display: flex;
+    justify-content: space-between;
+}
+#skill .skill_section img{
+    width: 500px;
+    height: 400px;
+    margin-top: 30%;
+    margin-left: 30%;
+    border-radius: 20px;
+    border: 1px solid rgb(136, 125, 125);
+}
+.skill_section .skill_about{
+    width: 45%;
+    margin-top: 10%;
+}
+.skill_section .skill_about .sub_icon h{
+    line-height: 4;
+    font-size: 15px;
+    font-weight: 900;  
+}
+.sub_icon  span{
+    padding: 10px 5px 0 0;
+}
+
+#project{
+    width: 100%;
+    height: 100%;
+
+}
+.project_box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+#project h4{
+    padding: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.pro_bone{
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: red;
+    
+}
+.pro_bone h1 span{
+    font-size: 40px;
+}
+.pro_bone h2 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+.pro_bone p{
+    padding-top: 20px;
+    
+}
+.pro_bone a{
+    line-height: 2;
+    text-decoration: none;
+    color: white;
+}
+.pro_bone:hover{
+    /* background-color: blue; */
+    transform: translateY(-5px);
+
+}
+#resume{
+    width: 100%;
+    /* height: 100%; */
+}
+.resume_box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.btn{
+    padding: 8px 15px 8px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
+.btn:hover{
+    background-color: rgb(161, 146, 146);
+}
+.resume_left{
+    flex-basis: 30%;
+    line-height: 2;
+}
+.resume_right{
+    flex-basis: 70%;
+}
+.resume_left h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.resume_left p{
+    font-size: 20px;
+    
+}
+.resume_left p span{
+    font-size: 20px;
+    padding-right: 5px;
+    
+}
+.resume_left a {
+    font-size: 25px;
+    padding-right: 15px; 
+    text-decoration: none; 
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 10px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.Copyright{
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #262626;
+    color: #fff;
+}
+.pro_bone:hover{
+    background-color: #005761;
+}
